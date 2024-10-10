@@ -1,0 +1,56 @@
+@media only screen and (max-width:700px){
+    header, header > h1, header > nav, section, main {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: left;
+        clear: both;
+        position: relative;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    header nav a {
+        display: inline-block;
+        padding: 0;
+        color: var(--korostus);
+        width: 50%;
+        background-color: var(--tumma);
+        border:2px solid var(--tumma);
+        border-radius: 20px;
+        text-align: center;
+        margin: 5px;
+        text-decoration: none;
+
+    }
+
+    header nav a:hover {
+        color: var(--tumma);
+        background-color: var(--korostus);
+        border:2px solid var(--korostus);
+    }
+    header nav ul {
+        display: block;
+        text-align: center;
+        clear: both;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        border-radius: 10px;
+
+    }
+    header h1 {
+        text-align: center;
+        padding: 0;
+        text-shadow: 20px 20px 20px var(--tumma);
+    }
+    main h1 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    ul {
+        margin-left: 10px;
+    }
+}
